@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ritesh Harshe|Homepage</title>
+    <title>Ritesh Harshe | Homepage</title>
+    <link rel="icon" href="assets/chatgpt_bbh_merger.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/chatgpt_bbh_merger.ico" type="image/x-icon">
 
     <style>
         body {
@@ -46,32 +48,79 @@
         a:hover {
             text-decoration: underline;
         }
+
         .intro {
             text-align: justify;
+        }
+
+        ul {
+            list-style-position: inside;
+            text-align: left;
+            padding-left: 0;
+        }
+
+        .navbar {
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .navbar ul {
+            list-style: none;      /* removes bullets */
+            margin: 0;
+            padding: 0;
+            display: inline-flex;  /* makes it horizontal */
+            gap: 40px;             /* spacing between tabs */
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: white;
+            font-weight: 500;
+            text-align: center;
+        }
+
+        .ext_links {
+            text-align: center;
+            padding:20px 0;
+        }
+
+        .ext_links ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: inline-flex;
+            gap: 60px;
         }
     </style>
 </head>
 
 <body>
 
-<header>
-    <h1>Welcome to My GitHub Page</h1>
-    <img src="assets/me.png" class="top-right-photo" style="width:200px; border-radius:50%">
+<header style="font-family: 'Times New Roman', Times, serif">
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="assets/CV.pdf" target="_blank" rel="noopener">CV</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <img src="assets/me.JPG" class="top-right-photo" style="width:200px; border-radius:50%">
 </header>
 
 <main>
-    <p class="intro">Hi! My name is Ritesh Harshe. I am a researcher working in gravitational-wave (GW) astronomy and data analysis. I enjoy combining astrophysics, signal processing, and high-performance computing to build practical tools for the GW community. I am currently interested in the analysis of wave-optics effects in the LIGO-Virgo-KAGRA observations, and the use of deep-learning methods to solve various problems in GW data analysis.</p>
-    <p>Visit <a href="https://www.icts.res.in/research/astrorel">Astrophysical Relativity</a> group at <a href="https://www.icts.res.in">ICTS</a>.</p>
-    <p>Visit my <a href="https://scholar.google.com/citations?user=kYI9Ez8AAAAJ&hl=en">Google Scholar</a>, <a href="https://www.researchgate.net/profile/Ritesh-Harshe">ResearchGate</a>, and <a href="">Inspire HEP</a> profiles.</p>
-    <p>Visit my <a href="https://github.com/harsheritesh">GitHub profile</a>.</p>
-    <p style="color: red; font-weight: bold; text-align: center;">[Site is in development]</p>
-</main>
-
-<footer>
-    <div style="text-align:center;">
-        <img src="https://hits.sh/harsheritesh.github.io.svg?style=plastic&label=Visitors&color=ffffff" alt="Visitor Count">
+    
+    <div class="ext_links" style="font-family: 'Times New Roman', Times, serif">
+        <p class="intro" style="font-family: 'Times New Roman', Times, serif">Hi! My name is Ritesh Harshe. I am a PhD scholar at the International Centre for Theoretical Sciences, Tata Institute of Fundamental Research (<a href="https://www.icts.res.in" target="_blank" rel="noopener">ICTS-TIFR</a>), Bangalore. I am working in the gravitational-wave (GW) data analysis. I am involved in the search of lensing in the GW observations, and the development of deep learning methods for early warning of GW signals for follow-up of electromagnetic transients. I am happy to also work in other areas of GW data analysis.</p>
+        <ul>
+            <li><a href="https://www.icts.res.in/research/astrorel" target="_blank" rel="noopener">Astrophysical Relativity</a></li>
+            <li><a href="https://github.com/harsheritesh" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="https://scholar.google.com/citations?user=kYI9Ez8AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a></li>
+            <li><a href="" target="_blank" rel="noopener">Inspire HEP</a></li>
+            <li><a href="https://www.linkedin.com/in/ritesh-harshe/" target="_blank" rel="noopener">LinkedIn</a></li>
+        </ul>
     </div>
-</footer>
+</main>
 
 </body>
 
