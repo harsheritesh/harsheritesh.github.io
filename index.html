@@ -94,6 +94,15 @@
             justify-content: center;  /* keep it centered */
             gap: 20px 40px;           /* row gap + column gap */
         }
+        
+        footer {
+            position: fixed;
+            bottom: 0;
+            text-align: center;
+            width: 100%;
+            background-color: #24292e;
+            color: #f4f4f4;
+        }
     </style>
 </head>
 
@@ -124,6 +133,14 @@
         </ul>
     </div>
 </main>
+
+<footer style="font-family: 'Times New Roman', Times, serif">
+  <p>&copy; Ritesh Harshe <span id="year"></span></p>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 
 </body>
 
